@@ -1,0 +1,67 @@
+2026-01-28T16:36Z define-entity journal "Personal thoughts, reflections, and experiences" ^journal
+  # Metadata
+  subject: string | link ; "Subject name/slug (use ^self for personal)"
+  type: string ; "idea, reflection, experience, doubt, question, etc."
+  mood?: string ; "Free text mood"
+  context?: string ; "What prompted this entry"
+  # Sections
+  Entry ; "The journal entry content"
+
+2026-01-28T16:36Z define-entity opinion "Formed stances on topics" ^opinion
+  # Metadata
+  confidence: "high" | "medium" | "low"
+  supersedes?: link ; "Reference to previous stance"
+  related?: link[] ; "Related entries"
+  # Sections
+  Claim ; "Core opinion in 1-2 sentences"
+  Reasoning ; "Bullet points supporting the claim"
+  Caveats? ; "Edge cases, limitations, exceptions"
+
+2026-01-28T16:36Z define-entity reference "External resources or local files" ^reference
+  # Metadata
+  url?: string ; "Full URL to external resource"
+  file?: string ; "Path to local file"
+  ref-type: "article" | "video" | "tweet" | "paper" | "book" | "other"
+  author?: string | link ; "Creator/author name"
+  published?: datetime ; "Publication date"
+  status?: "unread" | "read" | "processed" = "unread"
+  # Sections
+  Summary? ; "Brief summary of the content"
+  Key Takeaways? ; "Bullet points of main insights"
+  Related? ; "Links to related entries"
+
+2026-01-28T16:36Z define-entity lore "Facts and insights about subjects or yourself" ^lore
+  # Metadata
+  type: "fact" | "insight" ; "fact = verifiable info, insight = learned wisdom"
+  subject: string | link ; "Subject name/slug (use ^self for personal lore)"
+  date?: daterange ; "Relevant date or date range"
+  # Sections
+  Description ; "The lore content"
+
+2026-01-28T16:36Z define-entity me "Entity to allow for self-references" ^self
+  # Sections
+  Bio ; "Need at least one section"
+
+2026-01-28T16:40Z define-entity daily "Daily planning and reflection" ^daily
+  # Metadata
+  date: datetime ; "The date for this daily entry"
+  energy?: "high" | "medium" | "low" ; "Energy level"
+  # Sections
+  Focus ; "Top 1-3 priorities for the day"
+  Tasks? ; "Task list for the day"
+  Notes? ; "End of day notes, reflections"
+  Wins? ; "What went well"
+  Learned? ; "What I learned today"
+
+2026-01-28T16:40Z define-entity project "Active project tracking" ^project
+  # Metadata
+  status: "active" | "paused" | "completed" | "abandoned"
+  area: string ; "Life area: research, teaching, personal, health"
+  started?: datetime ; "Project start date"
+  deadline?: datetime ; "Target completion date"
+  # Sections
+  Goal ; "What success looks like"
+  Context? ; "Background, why this matters"
+  Progress? ; "Current status and recent updates"
+  Next? ; "Next actions"
+  Resources? ; "Links to related files, references"
