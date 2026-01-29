@@ -1,0 +1,16 @@
+{
+  "name": "thalo-dashboard",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dashboard": "tsx dashboard-generator.ts",
+    "dashboard:once": "tsx dashboard-generator.ts --once"
+  },
+  "dependencies": {
+    "@rejot-dev/thalo": "latest"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
