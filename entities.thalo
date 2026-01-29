@@ -54,7 +54,21 @@
   Wins? ; "What went well"
   Learned? ; "What I learned today"
 
-2026-01-28T16:40Z define-entity project "Active project tracking" ^project
+2026-01-28T16:45Z define-entity teaching "Course reflections and planning" ^teaching
+  # Metadata
+  course: string ; "Course name"
+  university?: string ; "University name"
+  semester: string ; "e.g., 2025-26 Bahar"
+  language?: "TR" | "EN" = "TR"
+  level?: "lisans" | "yuksek-lisans" = "lisans"
+  # Sections
+  Description ; "Course overview and general info"
+  This Semester? ; "This semester notes"
+  What Worked? ; "What worked well"
+  To Change? ; "What to change"
+  Next Semester? ; "Ideas for next semester"
+
+2026-01-28T16:50Z define-entity project "Active project tracking" ^project
   # Metadata
   status: "active" | "paused" | "completed" | "abandoned"
   area: string ; "Life area: research, teaching, personal, health"

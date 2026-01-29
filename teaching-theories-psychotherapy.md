@@ -1,20 +1,27 @@
-```thalo
-2026-01-28T18:57Z create lore "Theories of Psychotherapy - 2025-26 Bahar" ^lore-teaching-theories-psychotherapy #teaching #fbu
-  type: "insight"
-  subject: "teaching"
+2026-01-28T18:57Z create teaching "Theories of Psychotherapy" ^teaching-theories-psychotherapy #teaching #fbu
+  course: "Theories of Psychotherapy"
+  university: "Fenerbahçe Üniversitesi"
+  semester: "2025-26 Bahar"
+  language: "EN"
+  level: "lisans"
 
   # Description
-  **Üniversite:** Fenerbahçe Üniversitesi | **Dönem:** 2025-26 Bahar | **Dil:** EN | **Seviye:** Lisans
+  Undergraduate course - major psychotherapy theories in English.
 
-  ## Bu Dönem
+  # This Semester
   - (dönem sonunda doldur)
 
-  ## İşe Yarayan
+  # What Worked
   - (dönem sonunda doldur)
 
-  ## Değiştirilecek
+  # To Change
   - (dönem sonunda doldur)
 
-  ## Gelecek Dönem İçin
+  # Next Semester
   - (dönem sonunda doldur)
-```
+
+
+---
+Annotations: 0,517 SHA-256 ae70737b7f4af857b684f741725ec4d8ac476fd48a7f4ad57ac81ae9116a76e6
+&Claude: 0,517
+...

@@ -1,20 +1,27 @@
-```thalo
-2026-01-28T18:57Z create lore "Psikoterapi Teknikleri - 2025-26 Bahar" ^lore-teaching-psikoterapi-teknikleri #teaching #fbu
-  type: "insight"
-  subject: "teaching"
+2026-01-28T18:57Z create teaching "Psikoterapi Teknikleri" ^teaching-psikoterapi-teknikleri #teaching #fbu
+  course: "Psikoterapi Teknikleri"
+  university: "Fenerbahçe Üniversitesi"
+  semester: "2025-26 Bahar"
+  language: "TR"
+  level: "lisans"
 
   # Description
-  **Üniversite:** Fenerbahçe Üniversitesi | **Dönem:** 2025-26 Bahar | **Dil:** TR | **Seviye:** Lisans
+  Lisans dersi - psikoterapi tekniklerinin temelleri.
 
-  ## Bu Dönem
+  # This Semester
   - (dönem sonunda doldur)
 
-  ## İşe Yarayan
+  # What Worked
   - (dönem sonunda doldur)
 
-  ## Değiştirilecek
+  # To Change
   - (dönem sonunda doldur)
 
-  ## Gelecek Dönem İçin
+  # Next Semester
   - (dönem sonunda doldur)
-```
+
+
+---
+Annotations: 0,499 SHA-256 564993468cd777fa7667437dfd047f4f21283e6bfbfcaf42bd43346487759c85
+&Claude: 0,499
+...

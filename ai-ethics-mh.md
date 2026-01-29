@@ -1,20 +1,36 @@
-```thalo
 2026-01-28T16:50Z create project "AI Ethics for MH Professionals" ^project-ai-ethics-mh #research #ai-ethics
   status: "active"
   area: "research"
+  started: 2025-12-01
 
   # Goal
-  Mental health profesyonelleri için AI etik rehberi geliştirmek.
+  Yapay zeka etiği bilgisi ile ruh sağlığı profesyonellerinin yapay zeka kullanım niyeti arasındaki ilişkiyi araştırmak.
 
   # Context
-  AI araçlarının klinik pratikte kullanımına yönelik etik framework.
+  **Research Question:** Yapay zeka etiği bilgisi ile ruh sağlığı profesyonellerinin yapay zeka kullanım niyeti arasında nasıl bir ilişki vardır?
+
+  Literature review tamamlandı (14 paper). Etik kurul başvurusu hazırlanıyor.
 
   # Progress
-  (Güncellenecek)
+  - 2025-12-24: Literatür taraması revizyonu tamamlandı (bullet-free, PEER yapısı)
+  - 2025-12-23: Claude Desktop instructions oluşturuldu
+  - 2025-12-22: Çalışma grubu toplantısı, etik kurul planlandı (deadline: 2 Şubat)
+  - 2025-12-14: Literatür taraması Türkçe yazıldı
+  - 2025-12-13: 14 paper analiz edildi
+  - 2025-12-01: Proje başlatıldı
 
   # Next
-  - [ ] Mevcut durumu değerlendir
+  - [ ] Metod bölümü ekleme
+  - [ ] Etik kurul formatına çevirme
+  - [ ] Etik kurul başvurusu (deadline: 2 Şubat)
 
   # Resources
-  - ~/Documents/Work/Research/ai-ethics-mh-professionals/
-```
+  - [DEVONthink](x-devonthink-item://44E81738-DCBF-443E-9024-89DECB17E5AF)
+  - Drafts: ~/Documents/Work/Research/ai-ethics-mh-professionals/drafts/
+  - Paper notes: ~/Documents/Work/Research/ai-ethics-mh-professionals/paper-notes/ (14 paper)
+
+
+---
+Annotations: 0,1277 SHA-256 d290cd7e5dd7d619ab80ea27eaaecfad09c61beedfa10cc60b48d91466b296ce
+&Claude: 0,1277
+...

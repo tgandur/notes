@@ -1,20 +1,27 @@
-```thalo
-2026-01-28T18:57Z create lore "Travma Psikolojisi - 2025-26 Bahar" ^lore-teaching-travma-psikolojisi #teaching #fbu
-  type: "insight"
-  subject: "teaching"
+2026-01-28T18:57Z create teaching "Travma Psikolojisi" ^teaching-travma-psikolojisi #teaching #fbu
+  course: "Travma Psikolojisi"
+  university: "Fenerbahçe Üniversitesi"
+  semester: "2025-26 Bahar"
+  language: "TR"
+  level: "lisans"
 
   # Description
-  **Üniversite:** Fenerbahçe Üniversitesi | **Dönem:** 2025-26 Bahar | **Dil:** TR | **Seviye:** Lisans
+  Lisans dersi - travma psikolojisi temelleri.
 
-  ## Bu Dönem
+  # This Semester
   - (dönem sonunda doldur)
 
-  ## İşe Yarayan
+  # What Worked
   - (dönem sonunda doldur)
 
-  ## Değiştirilecek
+  # To Change
   - (dönem sonunda doldur)
 
-  ## Gelecek Dönem İçin
+  # Next Semester
   - (dönem sonunda doldur)
-```
+
+
+---
+Annotations: 0,480 SHA-256 7f4bc433b97c72ca13f84318672fecef120b4e234ec02030d18b4d5ec05d13f4
+&Claude: 0,480
+...
