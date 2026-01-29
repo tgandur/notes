@@ -32,8 +32,9 @@
 
 2026-01-28T16:36Z define-entity lore "Facts and insights about subjects or yourself" ^lore
   # Metadata
-  type: "fact" | "insight" ; "fact = verifiable info, insight = learned wisdom"
+  type: "fact" | "insight" | "framework" | "method" ; "fact = verifiable info, insight = learned wisdom, framework = structured approach, method = technique/procedure"
   subject: string | link ; "Subject name/slug (use ^self for personal lore)"
+  related?: link[] ; "Related projects, topics, or other lore entries"
   date?: daterange ; "Relevant date or date range"
   # Sections
   Description ; "The lore content"

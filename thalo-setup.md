@@ -14,10 +14,10 @@
   - [x] Thalo CLI kurulumu
   - [x] Entity tanımları (daily, project)
   - [x] İlk projeler eklendi
-  - [ ] Editor entegrasyonu
+  - [x] Editor entegrasyonu
 
   # Next
-  - [ ] Daha fazla proje ekle
+  - [x] Daha fazla proje ekle
   - [ ] Daily workflow'u test et
   - [ ] Research notes için entity tanımla
 

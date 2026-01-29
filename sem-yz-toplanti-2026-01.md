@@ -4,7 +4,7 @@
   type: "experience"
 
   # Entry
-  Medicana ekibiyle online toplantı yapıldı.
+  
   
   - Şubat başı için pilot grup planlandı
   - 15 kişilik ilk kohort

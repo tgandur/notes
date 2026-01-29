@@ -129,10 +129,30 @@ date -u +"%Y-%m-%dT%H:%MZ"  # 2026-01-28T17:09Z
 |--------|----------|
 | `daily` | Günlük planning |
 | `project` | Proje takibi |
-| `lore` | Bilgi/fact |
+| `lore` | Bilgi/fact/framework/method |
 | `opinion` | Görüş/tutum |
 | `journal` | Kişisel yansıma |
 | `reference` | Dış kaynak notu |
+
+### Lore Entity
+
+```thalo
+2026-01-28T17:00Z create lore "Title" ^lore-slug #tags
+  type: "fact" | "insight" | "framework" | "method"
+  subject: "topic" | ^project-link
+  related?: [^link-1, ^link-2]
+
+  # Description
+  Content here
+```
+
+**Type seçenekleri:**
+- `fact` - Doğrulanabilir bilgi
+- `insight` - Öğrenilmiş bilgelik, deneyimden çıkan sonuç
+- `framework` - Yapılandırılmış yaklaşım (örn: BAŞTAF)
+- `method` - Teknik, prosedür (örn: 4T modeli)
+
+**`related` field'ı:** Birden fazla proje veya lore entry'sine bağlantı için. Opsiyonel.
 
 ## Editor Entegrasyonu
 
@@ -183,6 +203,79 @@ npm install @rejot-dev/thalo
 ```
 
 Programmatic access için - custom validation, export, automation.
+
+## Kullanım Gözlemleri
+
+### Link ID'ler (^) Graf Oluşturur
+- `subject: ^project-x` ile bir note'u projeye bağla
+- `thalo query "lore where ^project-x"` ile backlink'leri bul
+- Bidirectional traversal mümkün
+
+### Array Syntax
+- `related?: [^a, ^b]` formatı lore entity'de destekleniyor
+- Birden fazla proje veya lore ile ilişkilendirme için kullanılır
+- Opsiyonel field - gerek yoksa kullanma
+
+### Validation Kritik
+- Her değişiklikten sonra `thalo check` çalıştır
+- Tek dosya check entity tanımlarını bulamaz, full check kullan
+- Hatalı syntax hemen yakalanır
+
+### Flat Structure Avantajları
+- Tüm dosyalar tek klasörde
+- Entity type dosya adından bağımsız
+- Query ile filtreleme: `thalo query "project where #tag"`
+- Obsidian klasör karmaşasından kurtulma
+
+## Synthesis Detaylı
+
+Synthesis, Thalo'nun AI-powered özetleme özelliği. Birden fazla entry'yi toplayıp AI'a prompt gönderir.
+
+### Temel Kullanım
+
+```thalo
+2026-01-28T17:00Z define-synthesis "Project Summary" ^synthesis-project-summary
+  sources: lore where subject = ^self
+
+  # Prompt
+  Bu projeye bağlı tüm lore entry'lerini analiz et.
+  Önemli noktaları ve öğrenilenleri özetle.
+```
+
+### Çalıştırma
+
+```bash
+thalo actualize              # Tüm synthesis'leri çalıştır
+thalo actualize --dry-run    # Preview (çalıştırmadan göster)
+```
+
+### `^self` Kullanımı
+
+`^self` synthesis'in tanımlandığı entry'nin link ID'sini ifade eder. Örneğin bir proje dosyasına synthesis eklerseniz, `^self` o projenin ID'si olur.
+
+### Örnek: Haftalık Özet
+
+```thalo
+2026-01-28T17:00Z define-synthesis "Weekly Review" ^synthesis-weekly
+  sources: daily where date >= 2026-01-20
+
+  # Prompt
+  Bu haftanın daily entry'lerini analiz et.
+  - Tamamlanan işler
+  - Öğrenilenler
+  - Tekrar eden temalar
+```
+
+### Örnek: Proje Lore Özeti
+
+```thalo
+2026-01-28T17:00Z define-synthesis "AI Ethics Insights" ^synthesis-ai-ethics
+  sources: lore where subject = ^project-ai-ethics-mh
+
+  # Prompt
+  Bu projeyle ilgili tüm fact ve insight'ları derle.
+  Ana temaları ve çıkarımları özetle.
+```
 
 ## Kaynaklar
 

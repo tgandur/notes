@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@rejot-dev/thalo-cli": "^0.2.4",
     "@rejot-dev/thalo-prettier": "^0.2.4"
   }
 }
