@@ -3,7 +3,7 @@
   status: "active"
   area: "teaching"
   started: 2026-01-05
-
+```
   # Goal
   Fenerbahçe Üniversitesi Sürekli Eğitim Merkezi için 24 saatlik (4 gün × 6 saat) "Yapay Zeka ile Bilişsel Ortaklık" sertifika programı. 4T Modeli (Teslim Et, Tarif Et, Tetkik Et, Titizlen) çerçevesinde yapılandırılmış, araçtan bağımsız YZ akıcılığı eğitimi.
 
@@ -28,4 +28,4 @@
   - ^lore-4t-model
   - ^lore-bastaf-framework
   - ^opinion-sem-yz-kararlar
-```
+
