@@ -4,7 +4,7 @@
   subject: ^project-sem-yz
 
   # Description
-  **Tarif Et**, AI ile verimli bir işbirliği ortamı yaratacak şekilde iletişim kurma yeteneğidir.
+  **Tarif Et**, YZ ile verimli bir işbirliği ortamı yaratacak şekilde iletişim kurma yeteneğidir.
 
   **Üç Alt Yetkinlik:**
 
@@ -25,7 +25,7 @@
      - Yaklaşım (zorlayıcı, destekleyici, nötr...)
      - Detay seviyesi (özet, kapsamlı, teknik...)
 
-  **Temel İlke:** AI sistemleriyle baştan net iletişim kurmak zaman kazandırır ve daha iyi sonuçlara yol açar.
+  **Temel İlke:** YZ sistemleriyle baştan net iletişim kurmak zaman kazandırır ve daha iyi sonuçlara yol açar.
 
   **İlgili araç:** ^lore-bastaf-framework (BAŞTAF prompt çerçevesi)
 ```

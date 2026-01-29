@@ -3,7 +3,8 @@
   status: "paused"
   area: "research"
   started: 2025-12-16
-
+```
+[[^project-orbis-linguarum]]
   # Goal
   Orbis Linguarum dergisine AI ethics ve humanities temalı makale göndermek. Antropolog arkadaşla interdisipliner çalışma.
 
@@ -23,7 +24,7 @@
   # Resources
   - Drafts: ~/Documents/Work/Research/orbis-linguarum/
   - [DEVONthink](x-devonthink-item://91FCBC46-982B-480E-8417-E29D8E2D1D09)
-```
+
 
 ---
 

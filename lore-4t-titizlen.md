@@ -4,18 +4,18 @@
   subject: ^project-sem-yz
 
   # Description
-  **Titizlen**, AI ile ne yaptığımızın ve nasıl yaptığımızın sorumluluğunu almaktır.
+  **Titizlen**, YZ ile ne yaptığımızın ve nasıl yaptığımızın sorumluluğunu almaktır.
 
   **Üç Alt Yetkinlik:**
 
   1. **Oluşturma Titizliği** - "Nasıl?"
-     - Bu AI aracı güvenilir mi?
+     - Bu YZ aracı güvenilir mi?
      - Verilerimi nasıl kullanıyor?
      - Gizlilik politikası ne diyor?
      - Kurumsal kurallar ne söylüyor?
 
   2. **Şeffaflık Titizliği** - "Kime?"
-     - AI'ın işinizdeki rolü hakkında dürüst olmak
+     - YZ'nin işinizdeki rolü hakkında dürüst olmak
      - Bağlamlara göre farklı beklentiler:
        - Kişisel: Düşük açıklama gereksinimi
        - Akademik: Yüksek açıklama ve kaynak gösterme
@@ -27,5 +27,5 @@
      - Paylaşmadan önce gözden geçirdim mi?
      - İmzamı atacak kadar güveniyorum mu?
 
-  **Temel İlke:** AI ne üretirse üretsin, son sorumluluk sizdedir.
+  **Temel İlke:** YZ ne üretirse üretsin, son sorumluluk sizdedir.
 ```

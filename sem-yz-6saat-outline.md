@@ -12,7 +12,7 @@
   |---------|-------------|-----------------|
   | Süre | 24 saat (4 gün) | 6 saat (1 gün) |
   | Format | Teori + Uygulama | Sadece Teori |
-  | Çıktılar | 8+ deliverable | Kavramsal anlayış |
+  | Çıktılar | 8+ çıktı | Kavramsal anlayış |
   | Hedef | Yetkinlik kazanımı | Farkındalık oluşturma |
   | Değerlendirme | Proje + Sınav | Katılım sertifikası |
 
@@ -20,14 +20,14 @@
 
   | Saat | Modül | 4T | İçerik |
   |------|-------|-----|--------|
-  | 1 | YZ Temelleri | — | Generative AI nedir, nasıl çalışır, üç etkileşim modu |
+  | 1 | YZ Temelleri | — | Üretici YZ nedir, nasıl çalışır, üç etkileşim modu |
   | 2 | Teslim Et | Teslim | Problem/platform farkındalığı, görev devri karar ağacı |
-  | 3 | Tarif Et | Tarif | BAŞTAF çerçevesi, 6 prompt tekniği, demo |
-  | 4 | Tetkik Et | Tetkik | Halüsinasyon türleri, doğrulama stratejileri, demo |
+  | 3 | Tarif Et | Tarif | BAŞTAF çerçevesi, 6 prompt tekniği, gösteri |
+  | 4 | Tetkik Et | Tetkik | Halüsinasyon türleri, doğrulama stratejileri, gösteri |
   | 5 | Titizlen | Titiz | Etik sorumluluk, şeffaflık, kurumsal politikalar |
-  | 6 | Entegrasyon | 4T | 4T döngüsü, kaynaklar, sonraki adımlar, Q&A |
+  | 6 | Entegrasyon | 4T | 4T döngüsü, kaynaklar, sonraki adımlar, Soru-Cevap |
 
-  **Pedagojik Yaklaşım:** Canlı demo ağırlıklı, vaka örnekleri ile kavram pekiştirme, tartışma soruları ile etkileşim, kaynak paketi ile sonrası için yönlendirme.
+  **Pedagojik Yaklaşım:** Canlı gösteri ağırlıklı, vaka örnekleri ile kavram pekiştirme, tartışma soruları ile etkileşim, kaynak paketi ile sonrası için yönlendirme.
 
   **Hedef Kitle:** Yöneticiler ve karar vericiler, YZ'ye giriş yapmak isteyenler, zaman kısıtı olanlar, kurumsal tanıtım/farkındalık eğitimleri.
 

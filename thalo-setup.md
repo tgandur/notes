@@ -3,7 +3,7 @@
   status: "active"
   area: "personal"
   started: 2026-01-28
-
+```
   # Goal
   Plain-text structured knowledge system kurulumu.
 
@@ -24,4 +24,5 @@
   # Resources
   - ~/Documents/Notes/
   - https://thalo.rejot.dev/
-```
+
+[[^project-thalo]]

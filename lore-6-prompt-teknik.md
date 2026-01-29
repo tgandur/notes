@@ -15,7 +15,7 @@
   | 5 | **Önce düşündür** | "Acele etme, düşün." | Chain-of-thought prompting |
   | 6 | **Rol tanımla** | "Kim gibi davranmalı?" | Persona ve ton belirle |
 
-  **Gizli Silah:** AI'dan prompt yardımı iste - "Bu konuda etkili bir prompt oluşturmama yardım edebilir misin?"
+  **Gizli Silah:** YZ'den prompt yardımı iste - "Bu konuda etkili bir prompt oluşturmama yardım edebilir misin?"
 
-  Kaynak: Anthropic 4D Framework, Türkçe adaptasyon
+  Kaynak: Anthropic 4D Çerçevesi, Türkçe adaptasyon
 ```

@@ -14,7 +14,7 @@
   - **Gia önerileri doğrultusunda:** 2026-01-11 tarihinde terminoloji ve değerlendirme yaklaşımı revize edildi
 
   # Caveats
-  - Slide deck'ler ve materyal paketi henüz güncellenmedi
+  - Sunum dosyaları ve materyal paketi henüz güncellenmedi
   - Uluslararası ortamlarda 4D/CO-STAR terminolojisi tercih edilebilir
   - Pilot grup geri bildirimleri terminoloji değişikliği gerektirebilir
 ```

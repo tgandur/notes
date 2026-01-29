@@ -9,7 +9,7 @@
   # Resources
   - ~/Documents/Work/Workshops/Problem Çözme Eğitimi (PRÇ)/
 ```
-
+[[^project-prc]]
 # Problem Çözme Eğitimi (PRÇ)
 
 **Kurum:** Kurumsal müşteriler (hastane, otel hizmetleri vb.)

@@ -9,6 +9,7 @@
   # Resources
   - ~/Documents/Work/Workshops/Medicana - Duygusal Dayanıklılık ve Stres Yönetimi/
 ```
+[[^project-medicana]]
 # Medicana - Duygusal Dayanıklılık ve Stresle Başa Çıkma
 
 **Kurum:** Medicana Hastane Grubu

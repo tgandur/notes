@@ -4,22 +4,23 @@
   area: "teaching"
   started: 2026-01-05
 ```
+[[^project-sem-yz]]
   # Goal
   Fenerbahçe Üniversitesi Sürekli Eğitim Merkezi için 24 saatlik (4 gün × 6 saat) "Yapay Zeka ile Bilişsel Ortaklık" sertifika programı. 4T Modeli (Teslim Et, Tarif Et, Tetkik Et, Titizlen) çerçevesinde yapılandırılmış, araçtan bağımsız YZ akıcılığı eğitimi.
 
   # Context
-  Anthropic'in 4D Framework for AI Fluency modeli Türkçeye adapte edildi. Program, prompt hilesi öğretmek yerine YZ ile düşünme zihniyeti kazandırmayı hedefliyor. Hedef kitle: akademisyenler, eğitimciler, kurumsal profesyoneller, yaratıcı profesyoneller.
+  Anthropic'in 4D Çerçevesi (4D Framework for AI Fluency) Türkçeye adapte edildi. Program, prompt hilesi öğretmek yerine YZ ile düşünme zihniyeti kazandırmayı hedefliyor. Hedef kitle: akademisyenler, eğitimciler, kurumsal profesyoneller, yaratıcı profesyoneller.
 
   # Progress
   - [x] 4D → 4T terminoloji adaptasyonu tamamlandı
   - [x] CO-STAR → BAŞTAF Türkçeleştirme tamamlandı
   - [x] SEM özet belgesi hazırlandı
   - [x] 4 günlük program yapısı oluşturuldu
-  - [x] Handout'lar Türkçeleştirildi (4T, 6 Prompt Tekniği)
+  - [x] El kitapçıkları Türkçeleştirildi (4T, 6 Prompt Tekniği)
   - [x] Ölçme-değerlendirme yaklaşımı belirlendi
 
   # Next
-  - [ ] Slide deck'lerde terminoloji güncellemesi
+  - [ ] Sunum dosyalarında terminoloji güncellemesi
   - [ ] Materyal paketinde "BAŞTAF Çerçevesi Şablonu" güncellemesi
   - [ ] Pilot grup için tarih belirleme
 

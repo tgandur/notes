@@ -15,13 +15,13 @@
 
 **Kurum:** Fenerbahçe Üniversitesi Sürekli Eğitim Merkezi
 **Eğitmen:** Dr. Tarık Gandur
-**Format:** Tek gün, uygulama içermeyen, demo ağırlıklı
+**Format:** Tek gün, uygulama içermeyen, gösteri ağırlıklı
 
 ---
 
 ## Program Tanımı
 
-Bu program, yapay zeka araçlarını etkili, verimli, etik ve güvenli şekilde kullanma yetkinliğinin temellerini aktarmayı amaçlayan yoğunlaştırılmış bir farkındalık eğitimidir. Anthropic'in uluslararası kabul görmüş 4D Framework'ünden Türkçeye adapte edilen **4T Modeli** çerçevesinde yapılandırılmıştır.
+Bu program, yapay zeka araçlarını etkili, verimli, etik ve güvenli şekilde kullanma yetkinliğinin temellerini aktarmayı amaçlayan yoğunlaştırılmış bir farkındalık eğitimidir. Anthropic'in uluslararası kabul görmüş 4D Çerçevesi'nden (4D Framework) Türkçeye adapte edilen **4T Modeli** çerçevesinde yapılandırılmıştır.
 
 ---
 
@@ -50,59 +50,59 @@ Program sonunda katılımcılar:
 
 ### Modül 1: Yapay Zeka Temelleri (60 dk)
 
-**Amaç:** Generative AI'ın ne olduğunu ve nasıl çalıştığını anlamak
+**Amaç:** Üretici YZ'nin ne olduğunu ve nasıl çalıştığını anlamak
 
 - Yapay zeka nedir, ne değildir?
 - Büyük dil modelleri (LLM) nasıl çalışır?
 - Üç etkileşim modu: Otomasyon, Artırma, Ajanlık
 - Güncel YZ araçları panoraması
 
-**Demo:** Aynı prompt'un farklı araçlardaki yanıtları
+**Gösteri:** Aynı prompt'un farklı araçlardaki yanıtları
 
 ---
 
 ### Modül 2: Teslim Et (60 dk)
 
-**Amaç:** AI ile ne zaman ve nasıl çalışılacağına karar vermek
+**Amaç:** YZ ile ne zaman ve nasıl çalışılacağına karar vermek
 
 - Problem Farkındalığı: "Ne yapmaya çalışıyorum?"
 - Platform Farkındalığı: "Hangi araç bu iş için uygun?"
-- Görev Devri: "Neyi ben yapmalı, neyi AI'a teslim etmeli?"
+- Görev Devri: "Neyi ben yapmalı, neyi YZ'ye teslim etmeli?"
 
-**Demo:** Görev analizi karar ağacı uygulaması
+**Gösteri:** Görev analizi karar ağacı uygulaması
 
 ---
 
 ### Modül 3: Tarif Et (60 dk)
 
-**Amaç:** AI ile etkili iletişim kurmak
+**Amaç:** YZ ile etkili iletişim kurmak
 
 - BAŞTAF Çerçevesi: Bağlam, Amaç, Stil, Ton, Alıcı, Format
 - 6 Temel Prompt Tekniği
 - İteratif prompt geliştirme
 
-**Demo:** BAŞTAF ile adım adım prompt oluşturma
+**Gösteri:** BAŞTAF ile adım adım prompt oluşturma
 
 ---
 
 ### Modül 4: Tetkik Et (60 dk)
 
-**Amaç:** AI çıktılarını eleştirel değerlendirmek
+**Amaç:** YZ çıktılarını eleştirel değerlendirmek
 
 - Halüsinasyon türleri ve tespiti
 - Doğrulama stratejileri
 - Ürün, süreç ve performans tetkiki
 
-**Demo:** Halüsinasyon avı - gerçek örnekler
+**Gösteri:** Halüsinasyon avı - gerçek örnekler
 
 ---
 
 ### Modül 5: Titizlen (60 dk)
 
-**Amaç:** AI kullanımının sorumluluğunu almak
+**Amaç:** YZ kullanımının sorumluluğunu almak
 
 - Oluşturma Titizliği: Güvenilir araç seçimi
-- Şeffaflık Titizliği: AI kullanımını açıklama
+- Şeffaflık Titizliği: YZ kullanımını açıklama
 - Uygulama Titizliği: Son kontrolü yapmak
 
 **Tartışma:** Meslek etiği ve YZ kullanımı
@@ -132,7 +132,7 @@ Bu kompakt programda formal değerlendirme yapılmaz. Katılım sertifikası ver
 ## Materyaller
 
 - Sunum dosyası
-- 4T Özet Kartı (handout)
+- 4T Özet Kartı (el kitapçığı)
 - BAŞTAF Şablonu
 - Kaynak listesi
 

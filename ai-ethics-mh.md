@@ -3,7 +3,8 @@
   status: "active"
   area: "research"
   started: 2025-12-01
-
+```
+[[^project-ai-ethics-mh]]
   # Goal
   Yapay zeka etiği bilgisi ile ruh sağlığı profesyonellerinin yapay zeka kullanım niyeti arasındaki ilişkiyi araştırmak.
 
@@ -29,7 +30,7 @@
   - [DEVONthink](x-devonthink-item://44E81738-DCBF-443E-9024-89DECB17E5AF)
   - Drafts: ~/Documents/Work/Research/ai-ethics-mh-professionals/drafts/
   - Paper notes: ~/Documents/Work/Research/ai-ethics-mh-professionals/paper-notes/ (14 paper)
-```
+
 
 ---
 

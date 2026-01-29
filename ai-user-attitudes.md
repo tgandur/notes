@@ -3,7 +3,8 @@
   status: "paused"
   area: "research"
   started: 2025-12-24
-
+```
+[[^project-ai-attitudes]]
   # Goal
   Genel halkın ruh sağlığı desteği için yapay zeka kullanmaya istekliliğini araştırmak.
 
@@ -33,7 +34,7 @@
   - Drafts: ~/Documents/Work/Research/ai-user-attitudes/drafts/
   - Paper notes: ~/Documents/Work/Research/ai-user-attitudes/paper-notes/ (6 paper)
   - Turkish norms: M=6.54 (AIAS-4, Satıcı 2025)
-```
+
 
 ---
 

@@ -9,7 +9,7 @@
   # Resources
   - ~/Documents/Work/Workshops/Psikolojik İlk Yardım/
 ```
-
+[[^project-piy]]
 # Psikolojik İlk Yardım (PIY) Sertifika Programı
 
 **Kurum:** Fenerbahçe Üniversitesi

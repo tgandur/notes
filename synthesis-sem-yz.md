@@ -20,9 +20,9 @@
 
 # SEM-YZ Program Özeti
 
-SEM-YZ (Sağlık Profesyonelleri için Yapay Zeka Sertifika Programı), sağlık alanında çalışan profesyonellere yapay zeka araçlarını etkili ve sorumlu biçimde kullanma yetkinliği kazandırmayı amaçlayan 4 günlük (24 saat) bir eğitim programıdır. Program, Anthropic'in 4D Framework'ünden Türkçeye adapte edilen **4T Modeli** üzerine inşa edilmiştir: **Teslim Et** (hangi görevlerin AI'a devredileceğine karar verme), **Tarif Et** (AI ile etkili iletişim kurma), **Tetkik Et** (AI çıktılarını eleştirel değerlendirme) ve **Titizlen** (etik sorumluluk alma).
+SEM-YZ (Sağlık Profesyonelleri için Yapay Zeka Sertifika Programı), sağlık alanında çalışan profesyonellere yapay zeka araçlarını etkili ve sorumlu biçimde kullanma yetkinliği kazandırmayı amaçlayan 4 günlük (24 saat) bir eğitim programıdır. Program, Anthropic'in 4D Çerçevesi'nden (4D Framework) Türkçeye adapte edilen **4T Modeli** üzerine inşa edilmiştir: **Teslim Et** (hangi görevlerin YZ'ye devredileceğine karar verme), **Tarif Et** (YZ ile etkili iletişim kurma), **Tetkik Et** (YZ çıktılarını eleştirel değerlendirme) ve **Titizlen** (etik sorumluluk alma).
 
-Programın pedagojik yaklaşımı, her günü bir 4T yetkinliğine odaklayarak ilerler. İlk gün AI-insan iş bölümü üzerine çalışılırken, ikinci gün **BAŞTAF** (Bağlam-Amaç-Stil-Ton-Alıcı-Format) prompt çerçevesi ve 6 temel prompt tekniği öğretilir. Üçüncü gün halüsinasyon tespiti ve kalite kontrol becerileri geliştirilir; dördüncü gün ise tüm yetkinlikler entegre edilerek katılımcılar kendi AI Kullanım Manifestosu'nu oluşturur.
+Programın pedagojik yaklaşımı, her günü bir 4T yetkinliğine odaklayarak ilerler. İlk gün YZ-insan iş bölümü üzerine çalışılırken, ikinci gün **BAŞTAF** (Bağlam-Amaç-Stil-Ton-Alıcı-Format) prompt çerçevesi ve 6 temel prompt tekniği öğretilir. Üçüncü gün halüsinasyon tespiti ve kalite kontrol becerileri geliştirilir; dördüncü gün ise tüm yetkinlikler entegre edilerek katılımcılar kendi YZ Kullanım Manifestosu'nu oluşturur.
 
 Metodoloji deneyimsel öğrenmeye dayanır: teori, canlı gösterim, atölye çalışması, vaka analizi ve akran öğrenmesi bir arada kullanılır. Program sağlayıcıdan bağımsız bir yaklaşım benimser (Claude, ChatGPT, Gemini) ve değerlendirme final sınavı ile 4T döngüsünü gösteren bir bitirme projesi üzerinden yapılır.
 

@@ -8,10 +8,10 @@
 
   | Gün | 4T Yetkinliği | Tema | Çıktılar |
   |-----|---------------|------|----------|
-  | **1** | **Teslim Et** | YZ ile Tanışma | AI-insan iş bölümü matrisi, platform karşılaştırması |
+  | **1** | **Teslim Et** | YZ ile Tanışma | YZ-insan iş bölümü matrisi, platform karşılaştırması |
   | **2** | **Tarif Et** | Etkili İletişim | BAŞTAF ile 3 prompt, zincirleme strateji, 3 şablon |
-  | **3** | **Tetkik Et + Titizlen** | Eleştirel Düşünme | Halüsinasyon tespiti, kalite kontrol checklist |
-  | **4** | **4T Bütünleşik** | Entegrasyon | AI Kullanım Manifestosu, YZ Entegrasyon Planı |
+  | **3** | **Tetkik Et + Titizlen** | Eleştirel Düşünme | Halüsinasyon tespiti, kalite kontrol listesi |
+  | **4** | **4T Bütünleşik** | Entegrasyon | YZ Kullanım Manifestosu, YZ Entegrasyon Planı |
 
   **Metodoloji:** Deneyimsel öğrenme (teori, canlı gösterim, atölye, vaka analizi, akran öğrenmesi, kişisel proje)
 

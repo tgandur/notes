@@ -9,7 +9,7 @@
   # Resources
   - ~/Documents/Work/Workshops/Çözüm Odaklı Terapi Sertifika/
 ```
-
+[[^project-cot]]
 # Çözüm Odaklı Kısa Süreli Terapi Sertifika Programı
 
 **Kurum:** Fenerbahçe Üniversitesi / Bağımsız
