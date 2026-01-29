@@ -9,3 +9,4 @@
 4. Claude.md tek dil olarak yazılmalı ingilizce. 
 5. Genel olarak bağlam ve kullandığın tool miktarını kademeli olarak azlaltmamız lazım. 
 6. Tool switching için daha net ve gerekirse daha sert olman gerekebilir. Bu konuda desktopda yaptığım skili seninle paylaşacağım. 
+7. ###c 
