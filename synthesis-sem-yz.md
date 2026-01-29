@@ -27,10 +27,11 @@ Programın pedagojik yaklaşımı, her günü bir 4T yetkinliğine odaklayarak i
 Metodoloji deneyimsel öğrenmeye dayanır: teori, canlı gösterim, atölye çalışması, vaka analizi ve akran öğrenmesi bir arada kullanılır. Program sağlayıcıdan bağımsız bir yaklaşım benimser (Claude, ChatGPT, Gemini) ve değerlendirme final sınavı ile 4T döngüsünü gösteren bir bitirme projesi üzerinden yapılır.
 
 ---
-*Son güncelleme: 2026-01-28T18:14Z*
 
+_Son güncelleme: 2026-01-28T18:14Z_
 
 ---
+
 Annotations: 0,1975 SHA-256 19bf9d0cadd50dab048b05f68d6ad623c5c8ab8f920aa49e27209f510af52153
 &Claude: 0,1975
 ...

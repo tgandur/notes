@@ -1,3 +1,4 @@
+```thalo
 2026-01-28T16:51Z create project "AI User Attitudes Research" ^project-ai-attitudes #research #ai-ethics #turkey
   status: "paused"
   area: "research"
@@ -32,9 +33,10 @@
   - Drafts: ~/Documents/Work/Research/ai-user-attitudes/drafts/
   - Paper notes: ~/Documents/Work/Research/ai-user-attitudes/paper-notes/ (6 paper)
   - Turkish norms: M=6.54 (AIAS-4, Satıcı 2025)
-
+```
 
 ---
-Annotations: 0,1445 SHA-256 f13c8e4b9c42665c2db4fc7d3cfd6a1b77e87918647899811dbba4a2c8eb8ec0
-&Claude: 0,1445
+
+Annotations: 0,1458 SHA-256 4da685b2b770b9fa521c7ba1067948e49b79f1d7565f1267062b42f17fe8e798
+&Claude: 0,1458
 ...

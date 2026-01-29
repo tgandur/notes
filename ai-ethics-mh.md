@@ -1,3 +1,4 @@
+```thalo
 2026-01-28T16:50Z create project "AI Ethics for MH Professionals" ^project-ai-ethics-mh #research #ai-ethics
   status: "active"
   area: "research"
@@ -28,9 +29,10 @@
   - [DEVONthink](x-devonthink-item://44E81738-DCBF-443E-9024-89DECB17E5AF)
   - Drafts: ~/Documents/Work/Research/ai-ethics-mh-professionals/drafts/
   - Paper notes: ~/Documents/Work/Research/ai-ethics-mh-professionals/paper-notes/ (14 paper)
-
+```
 
 ---
-Annotations: 0,1277 SHA-256 d290cd7e5dd7d619ab80ea27eaaecfad09c61beedfa10cc60b48d91466b296ce
-&Claude: 0,1277
+
+Annotations: 0,1290 SHA-256 0d854576c59c4363916364c7cc98e0cde9968d8fe77f93d484c13c1bf93a7cb9
+&Claude: 0,1290
 ...

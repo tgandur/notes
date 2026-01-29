@@ -4,8 +4,8 @@
   type: "experience"
 
   # Entry
-  
-  
+
+
   - Şubat başı için pilot grup planlandı
   - 15 kişilik ilk kohort
   - 4 haftalık yoğun program formatı kabul edildi

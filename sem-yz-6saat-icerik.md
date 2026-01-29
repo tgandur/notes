@@ -10,6 +10,7 @@
 ---
 
 # Yapay Zeka ile Bilişsel Ortaklık
+
 ## Kompakt Program (6 Saat)
 
 **Kurum:** Fenerbahçe Üniversitesi Sürekli Eğitim Merkezi
@@ -144,4 +145,4 @@ Bu kompakt programda formal değerlendirme yapılmaz. Katılım sertifikası ver
 
 ---
 
-*Son güncelleme: 2026-01-28*
+_Son güncelleme: 2026-01-28_
