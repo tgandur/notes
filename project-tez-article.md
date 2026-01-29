@@ -4,8 +4,7 @@
   area: "research"
   started: 2025-12-16
   deadline: 2026-02-28
-```
-[[^project-tez-article]]
+
   # Goal
   Türkçe'ye uyarlanan üç kişilik işlevselliği ölçeğinin (STIP 5.1, LPFS-BF 2.0, SIPP-SF) validasyon makalesini tamamlamak.
 
@@ -34,6 +33,12 @@
   - Drafts: ~/Documents/Work/Research/tez-article-draft/
   - [DEVONthink](x-devonthink-item://12A5B688-2565-462F-BB79-D17065E87F14)
   - [Todoist](https://app.todoist.com/app/project/6fWMgRPcmpvWRrCh)
+```
 
+[[^project-tez-article]]
 
+---
 
+Annotations: 0,1293 SHA-256 6be658acb87f0293e631df539bf5bb39b03af2023ae68f386fb5b6bcd900cf31
+&Claude: 0,1293
+...

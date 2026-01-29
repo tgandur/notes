@@ -19,3 +19,11 @@
 
   **Değerlendirme:** Final sınavı + Bitirme projesi (4T döngüsü gösterimi)
 ```
+
+[[^lore-sem-yz-moduller]]
+
+---
+
+Annotations: 0,1008 SHA-256 1c6fc1efc9495aaca6d0f17248e3a43a8b7549408dc009e869e81fe002969ddc
+&Claude: 0,1008
+...

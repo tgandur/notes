@@ -18,6 +18,8 @@
   checkpoint: "git:53ff1b1cbbcf81b9e366a38fefa96fa0da80b793"
 ```
 
+[[^synthesis-sem-yz-summary]]
+
 # SEM-YZ Program Özeti
 
 SEM-YZ (Sağlık Profesyonelleri için Yapay Zeka Sertifika Programı), sağlık alanında çalışan profesyonellere yapay zeka araçlarını etkili ve sorumlu biçimde kullanma yetkinliği kazandırmayı amaçlayan 4 günlük (24 saat) bir eğitim programıdır. Program, Anthropic'in 4D Çerçevesi'nden (4D Framework) Türkçeye adapte edilen **4T Modeli** üzerine inşa edilmiştir: **Teslim Et** (hangi görevlerin YZ'ye devredileceğine karar verme), **Tarif Et** (YZ ile etkili iletişim kurma), **Tetkik Et** (YZ çıktılarını eleştirel değerlendirme) ve **Titizlen** (etik sorumluluk alma).
@@ -34,4 +36,10 @@ _Son güncelleme: 2026-01-28T18:14Z_
 
 Annotations: 0,1975 SHA-256 19bf9d0cadd50dab048b05f68d6ad623c5c8ab8f920aa49e27209f510af52153
 &Claude: 0,1975
+...
+
+---
+
+Annotations: 0,2141 SHA-256 1d5dddf92f51a8b2509ee39053b328af427c8ab399fb3d95ddfdfa931126dc86
+&Claude: 0,2141
 ...

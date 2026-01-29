@@ -7,4 +7,12 @@
   Keep it professional but personable.
 ```
 
+[[^bio-synthesis]]
+
 # Personal Bio
+
+---
+
+Annotations: 0,275 SHA-256 ac191f8fa67f869290cb1942d092c4202950c246142d3bca9e40d863e6520bec
+&Claude: 0,275
+...

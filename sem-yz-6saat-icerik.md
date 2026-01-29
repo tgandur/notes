@@ -7,6 +7,8 @@
   FBU Sürekli Eğitim Merkezi için 6 saatlik kompakt program içerik dokümanı.
 ```
 
+[[^lore-sem-yz-6saat-icerik]]
+
 ---
 
 # Yapay Zeka ile Bilişsel Ortaklık
@@ -146,3 +148,9 @@ Bu kompakt programda formal değerlendirme yapılmaz. Katılım sertifikası ver
 ---
 
 _Son güncelleme: 2026-01-28_
+
+---
+
+Annotations: 0,3558 SHA-256 6d9d3d0f6759d4a19b717e3a45b93eb31722c74782ece129a12d7f2408655756
+&Claude: 0,3558
+...

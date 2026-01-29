@@ -18,7 +18,7 @@ and concepts.
 
 Every Thalo entry follows this structure:
 
-```text
+```thalo
 {timestamp} {directive} {entity} "Title" [^link-id] [#tags...]
   {metadata-key}: {value}
   ...
@@ -59,12 +59,12 @@ The header line contains:
 
 Metadata fields are indented key-value pairs. Values can be:
 
-* **Strings**: `author: "Jane Doe"` or unquoted `author: Jane Doe`
-* **Links**: `subject: ^self` or `related: ^other-entry`
-* **Arrays**: `tags: #programming, #books`
-* **Dates**: `published: 2023-03-16`
-* **Date ranges**: `date: 2020 ~ 2021`
-* **Enums**: `confidence: "high"` (must match schema definition)
+- **Strings**: `author: "Jane Doe"` or unquoted `author: Jane Doe`
+- **Links**: `subject: ^self` or `related: ^other-entry`
+- **Arrays**: `tags: #programming, #books`
+- **Dates**: `published: 2023-03-16`
+- **Date ranges**: `date: 2020 ~ 2021`
+- **Enums**: `confidence: "high"` (must match schema definition)
 
 ## Sections
 
@@ -133,9 +133,9 @@ Before creating entries, you need to define entity schemas:
 
 The schema defines:
 
-* Required and optional metadata fields
-* Field types and constraints
-* Required and optional sections
+- Required and optional metadata fields
+- Field types and constraints
+- Required and optional sections
 
 ## Syntheses
 
@@ -152,9 +152,9 @@ Syntheses define queries over your knowledge base:
 
 Syntheses allow you to:
 
-* Query multiple entry types
-* Filter by tags or metadata
-* Generate AI prompts for synthesis
+- Query multiple entry types
+- Filter by tags or metadata
+- Generate AI prompts for synthesis
 
 ## Comments
 
@@ -205,6 +205,6 @@ The Prettier plugin automatically formats Thalo code blocks in Markdown files.
 
 ## Next Steps
 
-* Learn about [defining entities](/docs/entities)
-* Explore the [CLI commands](/docs/cli)
-* See [real-world examples](/docs/examples)
+- Learn about [defining entities](/docs/entities)
+- Explore the [CLI commands](/docs/cli)
+- See [real-world examples](/docs/examples)

@@ -9,7 +9,9 @@
   # Resources
   - ~/Documents/Work/Workshops/Psikolojik İlk Yardım/
 ```
+
 [[^project-piy]]
+
 # Psikolojik İlk Yardım (PIY) Sertifika Programı
 
 **Kurum:** Fenerbahçe Üniversitesi
@@ -22,13 +24,13 @@ Kriz durumlarında psikolojik ilk yardım sağlama becerilerini kazandıran kaps
 
 ## Key Files
 
-| File | Description |
-|------|-------------|
-| PSİKOLOJİK İLK YARDIM (PİY) SERTİFİKA PROGRAMI.md | Ana program bilgisi |
-| PIY Eğitim.md | Eğitim içeriği |
-| Eğitim Programı (PIY_KISA_2025_04).md | Kısa versiyon program |
-| PIY Sertifika Sınavı.md | Sınav soruları ve cevapları |
-| Psikolojik İlk Yardım Sertifika Programı - Eğitim Takvimi.md | Günlük program |
+| File                                                         | Description                 |
+| ------------------------------------------------------------ | --------------------------- |
+| PSİKOLOJİK İLK YARDIM (PİY) SERTİFİKA PROGRAMI.md            | Ana program bilgisi         |
+| PIY Eğitim.md                                                | Eğitim içeriği              |
+| Eğitim Programı (PIY_KISA_2025_04).md                        | Kısa versiyon program       |
+| PIY Sertifika Sınavı.md                                      | Sınav soruları ve cevapları |
+| Psikolojik İlk Yardım Sertifika Programı - Eğitim Takvimi.md | Günlük program              |
 
 ## Yapı
 
@@ -42,18 +44,21 @@ Kriz durumlarında psikolojik ilk yardım sağlama becerilerini kazandıran kaps
 ## Progress Log
 
 ### 2025-04
+
 - ✅ Sertifika sınavı hazırlandı
 - ✅ Program tamamlandı
 
 ### 2025-12
+
 - Seminer planlama toplantısı yapıldı
 
 ### 2026-01-28
+
 - Thalo'ya migrate edildi
 - Status: completed
 
-
 ---
+
 Annotations: 0,1399 SHA-256 6199d474cfbea0cf02b59e267b3c78740211c6a86df76c3179cbd765f4bac334
 &Claude: 0,1399
 ...

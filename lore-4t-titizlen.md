@@ -29,3 +29,11 @@
 
   **Temel İlke:** YZ ne üretirse üretsin, son sorumluluk sizdedir.
 ```
+
+[[^lore-4t-titizlen]]
+
+---
+
+Annotations: 0,1035 SHA-256 2564c0f3e2bb843a8e5af94dc2d16459a06dab2a15583603ca24f25fff5978e1
+&Claude: 0,1035
+...

@@ -1,6 +1,6 @@
 ```thalo
 2026-01-28T18:04Z create lore "6 Etkili Prompt Tekniği" ^lore-6-prompt-teknik #ai #prompting
-  type: "fact"
+  type: "method"
   subject: ^project-sem-yz
 
   # Description
@@ -19,3 +19,11 @@
 
   Kaynak: Anthropic 4D Çerçevesi, Türkçe adaptasyon
 ```
+
+[[^lore-6-prompt-teknik]]
+
+---
+
+Annotations: 0,1046 SHA-256 90f620bf34397013c6f3376dea5085005c75257d5141c1695e134814cec11f04
+&Claude: 0,1046
+...

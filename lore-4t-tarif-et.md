@@ -29,3 +29,11 @@
 
   **İlgili araç:** ^lore-bastaf-framework (BAŞTAF prompt çerçevesi)
 ```
+
+[[^lore-4t-tarif-et]]
+
+---
+
+Annotations: 0,1086 SHA-256 3c8f330f2e9a1703ea0a64830d8312ea0a0816293a70e9c1d607f596b1451e32
+&Claude: 0,1086
+...

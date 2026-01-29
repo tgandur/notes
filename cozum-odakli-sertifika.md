@@ -9,7 +9,9 @@
   # Resources
   - ~/Documents/Work/Workshops/Çözüm Odaklı Terapi Sertifika/
 ```
+
 [[^project-cot]]
+
 # Çözüm Odaklı Kısa Süreli Terapi Sertifika Programı
 
 **Kurum:** Fenerbahçe Üniversitesi / Bağımsız
@@ -23,12 +25,14 @@
 ## Program Yapısı
 
 **1. ve 2. Gün: Kuramsal Eğitim**
+
 - ÇOKT felsefesi ve temel varsayımlar
 - Problem → Çözüm odaklı geçiş
 - Temel teknikler: Mucize soru, ölçekleme, istisnaları keşfetme
 - İlk iki seans yapısı
 
 **3. ve 4. Gün: Süpervizyon ve Uygulama**
+
 - Vaka sunumları ve grup süpervizyonu
 - Rol canlandırma
 - Canlı seans gösterimleri
@@ -36,8 +40,8 @@
 
 ## Key Files
 
-| File | Description |
-|------|-------------|
+| File                                                                    | Description          |
+| ----------------------------------------------------------------------- | -------------------- |
 | Çözüm Odaklı Kısa Süreli Terapi Sertifika Programı - Program Bilgisi.md | Tam program dokümanı |
 
 ## Sertifikasyon
@@ -49,14 +53,16 @@
 ## Progress Log
 
 ### 2025
+
 - Program içeriği hazırlandı
 - Status: paused (henüz açılmadı)
 
 ### 2026-01-28
+
 - Thalo'ya migrate edildi
 
-
 ---
+
 Annotations: 0,1583 SHA-256 8786608a5fe0e82432a39996032b3c8bffffa0a00d1c69b8ae75c1e359da7fbd
 &Claude: 0,1583
 ...

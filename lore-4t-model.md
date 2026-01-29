@@ -2,6 +2,7 @@
 2026-01-28T18:04Z create lore "4T Modeli - YZ Akıcılığı Çerçevesi" ^lore-4t-model #ai #framework #pedagogy
   type: "fact"
   subject: ^project-sem-yz
+  related:  ^lore-4t-teslim-et, ^lore-4t-tarif-et, ^lore-4t-tetkik-et, ^lore-4t-titizlen, ^lore-6-prompt-teknik, ^lore-bastaf-framework
 
   # Description
   YZ Akıcılığı için dört temel yetkinlik çerçevesi. Anthropic'in 4D Çerçevesi'nden (4D Framework) Türkçeye adapte edildi.
@@ -23,6 +24,8 @@
   Kaynak: © 2025 Rick Dakan, Joseph Feller, and Anthropic (CC BY-NC-SA 4.0)
 ```
 
+[[^lore-4t-model]]
+
 # İlgili Lore'lar
 
 - ^lore-4t-teslim-et
@@ -31,3 +34,9 @@
 - ^lore-4t-titizlen
 - ^lore-6-prompt-teknik
 - ^lore-bastaf-framework
+
+---
+
+Annotations: 0,1226 SHA-256 8b29fd852b390fccdf5ccbc690e4e588a96ca2de3704eca1fad4c2cf54206b23
+&Claude: 0,1226
+...

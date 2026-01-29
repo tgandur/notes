@@ -33,3 +33,11 @@
 
   İlişkili: ^lore-sem-yz-moduller, ^lore-4t-model
 ```
+
+[[^lore-sem-yz-6saat]]
+
+---
+
+Annotations: 0,1611 SHA-256 ffca0e3e40a07813969c21e3121abdcaf7377c8fc156f10f13670130757f74dc
+&Claude: 0,1611
+...

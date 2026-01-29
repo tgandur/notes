@@ -28,3 +28,11 @@
 
   **Temel İlke:** Tetkik Et, Tarif Et ile el ele çalışır ve sürekli bir geri bildirim döngüsü oluşturur.
 ```
+
+[[^lore-4t-tetkik-et]]
+
+---
+
+Annotations: 0,1131 SHA-256 c289fed320b50e773963f35dc23f9ad7405b07bb995c274e0e50bdb69cbb4881
+&Claude: 0,1131
+...

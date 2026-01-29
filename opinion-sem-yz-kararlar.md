@@ -18,3 +18,11 @@
   - Uluslararası ortamlarda 4D/CO-STAR terminolojisi tercih edilebilir
   - Pilot grup geri bildirimleri terminoloji değişikliği gerektirebilir
 ```
+
+[[^opinion-sem-yz-kararlar]]
+
+---
+
+Annotations: 0,1123 SHA-256 adf21b46a14283c30abc200a5bc644b4da0e604065679ad2ceb40f5b6abc3a18
+&Claude: 0,1123
+...

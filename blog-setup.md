@@ -3,8 +3,7 @@
   status: "completed"
   area: "personal"
   started: 2026-01-28
-```
-[[^project-blog]]
+
   # Goal
   gandurian.com üzerinde Hugo blog + iA Writer Micropub entegrasyonu.
 
@@ -24,4 +23,12 @@
   # Resources
   - https://gandurian.com
   - ~/Documents/Publish/
+```
 
+[[^project-blog]]
+
+---
+
+Annotations: 0,582 SHA-256 172a075379665af85336b5d4f080e8a293275e387730d5e5ae1d970d827546ed
+&Claude: 0,582
+...

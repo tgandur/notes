@@ -25,3 +25,11 @@
 
   **Temel İlke:** Etkili görev devri hem alan uzmanlığı hem de YZ yeteneklerinin anlaşılmasını gerektirir.
 ```
+
+[[^lore-4t-teslim-et]]
+
+---
+
+Annotations: 0,978 SHA-256 a318c02027b8699b9f3a8a2b8aafdff6fc8e21ea6304eb4fe58e5ee97ec67dfa
+&Claude: 0,978
+...
