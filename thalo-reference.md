@@ -9,292 +9,202 @@
   Website: https://thalo.rejot.dev/
 ```
 
-# Thalo CLI Reference
+# Syntax & Concepts
 
-## Kurulum
+Thalo is a structured plain-text language for capturing knowledge. This guide covers the core syntax
+and concepts.
 
-```bash
-npm install -g @rejot-dev/thalo-cli
-```
+## Entry Structure
 
-## Temel Komutlar
+Every Thalo entry follows this structure:
 
-| Komut                | Açıklama                   |
-| -------------------- | -------------------------- |
-| `thalo init`         | Yeni knowledge base başlat |
-| `thalo check`        | Validate entries           |
-| `thalo check [file]` | Tek dosya validate         |
-| `thalo query "..."`  | Entry sorgula              |
-| `thalo format`       | Prettier ile formatla      |
-| `thalo lsp`          | Language Server başlat     |
-| `thalo actualize`    | Synthesis'leri çalıştır    |
-
-## Query Syntax
-
-```bash
-# Entity type ile
-thalo query "project"
-thalo query "daily"
-thalo query "lore"
-
-# Link ID ile (^prefix)
-thalo query "project where ^project-sem-yz"
-
-# Tag ile (#prefix)
-thalo query "project where #workshop"
-thalo query "lore where #career"
-
-# Field ile
-thalo query 'project where status = "active"'
-thalo query 'lore where type = "fact"'
-
-# Kombinasyon (and)
-thalo query 'project where #workshop and status = "active"'
-
-# JSON output
-thalo query "project" --json
-
-# Raw output
-thalo query "project" --format raw
-
-# Tarih filtresi
-thalo query "daily" --since ts:2026-01-20T00:00Z
-
-# Limit
-thalo query "project" -n 5
-```
-
-## Entry Syntax
-
-```thalo
+```text
 {timestamp} {directive} {entity} "Title" [^link-id] [#tags...]
-  field: "value"
-  field2: value2
+  {metadata-key}: {value}
+  ...
 
   # Section Name
-  Content here (markdown)
-
-  # Another Section
-  More content
+  Content goes here...
 ```
 
-### Timestamp
+### Header Line
 
-```bash
-date -u +"%Y-%m-%dT%H:%MZ"  # 2026-01-28T17:09Z
-```
+The header line contains:
 
-### Directives
+| Element       | Pattern                                   | Required | Example                                   |
+| ------------- | ----------------------------------------- | -------- | ----------------------------------------- |
+| **Timestamp** | `YYYY-MM-DDTHH:MM` or `YYYY-MM-DDTHH:MMZ` | Yes      | `2026-01-08T14:30Z`                       |
+| **Directive** | `create` or `update`                      | Yes      | `create`                                  |
+| **Entity**    | Entity type name                          | Yes      | `opinion`, `journal`, `reference`, `lore` |
+| **Title**     | Quoted string                             | Yes      | `"My Entry Title"`                        |
+| **Link ID**   | `^` + identifier                          | No       | `^my-entry-id`                            |
+| **Tags**      | `#` + identifier                          | No       | `#programming #books`                     |
 
-- `create` - yeni entry
-- `update` - mevcut entry güncelle
-- `define-entity` - entity şeması tanımla
-- `define-synthesis` - synthesis tanımla
-
-### Field Types
-
-- `string` - "quoted" veya unquoted
-- `datetime` - 2026-01-28 veya 2026-01-28T17:00Z
-- `daterange` - 2020 ~ 2021
-- `link` - ^link-id
-- `link[]` - array of links
-- Enums - "active" | "paused" | "completed"
-
-## Entity Tanımlama
+### Example
 
 ```thalo
-2026-01-28T17:00Z define-entity myentity "Description" ^myentity
+2026-01-08T14:30Z create opinion "TypeScript enums should be avoided" ^ts-enums #typescript
+  confidence: "high"
+  related: ^clean-code
+
+  # Claim
+  TypeScript enums should be replaced with `as const` objects.
+
+  # Reasoning
+  - Enums generate runtime code - `as const` provides the same type safety with zero overhead -
+    Better tree-shaking support
+```
+
+## Metadata
+
+Metadata fields are indented key-value pairs. Values can be:
+
+* **Strings**: `author: "Jane Doe"` or unquoted `author: Jane Doe`
+* **Links**: `subject: ^self` or `related: ^other-entry`
+* **Arrays**: `tags: #programming, #books`
+* **Dates**: `published: 2023-03-16`
+* **Date ranges**: `date: 2020 ~ 2021`
+* **Enums**: `confidence: "high"` (must match schema definition)
+
+## Sections
+
+Content sections start with `# SectionName` (indented). All content must be within a section. Each
+entity type defines which sections are required or optional.
+
+```thalo
+2026-01-08T14:30Z create journal "Daily reflection" ^daily-2026-01-08
+  subject: ^self
+  type: "reflection"
+  mood: "contemplative"
+
+  # Entry
+  Today I learned about the importance of plain text formats for knowledge management. The
+  simplicity is powerful.
+```
+
+## Links
+
+Links use the `^` prefix and allow you to cross-reference entries:
+
+```text
+# Reference another entry
+related: ^clean-code
+
+# Self-reference
+subject: ^self
+
+# Multiple links
+related: ^entry-one, ^entry-two
+```
+
+Link IDs are defined in the header line with `^identifier`. If omitted, Thalo generates one
+automatically.
+
+## Tags
+
+Tags use the `#` prefix for categorization:
+
+```text
+# Single tag
+#programming
+
+# Multiple tags
+#programming #books #architecture
+```
+
+Tags are useful for filtering and querying your knowledge base.
+
+## Entity Definitions
+
+Before creating entries, you need to define entity schemas:
+
+```thalo
+2026-01-07T11:40Z define-entity opinion "Formed stances on topics"
   # Metadata
-  required_field: string ; "Description"
-  optional_field?: number ; "Optional field"
-  enum_field: "a" | "b" | "c"
+  confidence: "high" | "medium" | "low"
+  supersedes?: link ; "Reference to previous stance"
+  related?: link[] ; "Related entries"
 
   # Sections
-  RequiredSection ; "This section is required"
-  OptionalSection? ; "This is optional"
+  Claim ; "Core opinion in 1-2 sentences"
+  Reasoning ; "Bullet points supporting the claim"
+  Caveats? ; "Edge cases, limitations, exceptions"
 ```
 
-## Synthesis (AI Query)
+The schema defines:
+
+* Required and optional metadata fields
+* Field types and constraints
+* Required and optional sections
+
+## Syntheses
+
+Syntheses define queries over your knowledge base:
 
 ```thalo
-2026-01-28T17:00Z define-synthesis "Summary Title" ^synthesis-id
-  sources: lore where subject = ^self
+2026-01-08T14:30Z define-synthesis "My Programming Philosophy" ^prog-philosophy #programming
+  sources: opinion where #programming, lore where #insights
 
   # Prompt
-  Write a narrative summary from the collected facts.
+  Synthesize my programming opinions and insights into a coherent philosophy. Note any
+  contradictions or evolution in my thinking.
 ```
 
-`thalo actualize` komutu synthesis'leri çalıştırır.
+Syntheses allow you to:
 
-## Varsayılan Entity'ler
+* Query multiple entry types
+* Filter by tags or metadata
+* Generate AI prompts for synthesis
 
-| Entity      | Kullanım                    |
-| ----------- | --------------------------- |
-| `daily`     | Günlük planning             |
-| `project`   | Proje takibi                |
-| `lore`      | Bilgi/fact/framework/method |
-| `opinion`   | Görüş/tutum                 |
-| `journal`   | Kişisel yansıma             |
-| `reference` | Dış kaynak notu             |
+## Comments
 
-### Lore Entity
+Add comments with `//`:
 
 ```thalo
-2026-01-28T17:00Z create lore "Title" ^lore-slug #tags
-  type: "fact" | "insight" | "framework" | "method"
-  subject: "topic" | ^project-link
-  related?: [^link-1, ^link-2]
+// This is a comment
 
-  # Description
-  Content here
+2026-01-08T14:30Z create opinion "Example" ^example
+  // Metadata comment
+  confidence: "high"
+
+  # Claim
+  // Inline comment
+  This is the claim.
 ```
 
-**Type seçenekleri:**
+## Markdown Integration
 
-- `fact` - Doğrulanabilir bilgi
-- `insight` - Öğrenilmiş bilgelik, deneyimden çıkan sonuç
-- `framework` - Yapılandırılmış yaklaşım (örn: BAŞTAF)
-- `method` - Teknik, prosedür (örn: 4T modeli)
-
-**`related` field'ı:** Birden fazla proje veya lore entry'sine bağlantı için. Opsiyonel.
-
-## Editor Entegrasyonu
-
-### VS Code / Codium
-
-```bash
-# Extension build & install
-git clone https://github.com/rejot-dev/thalo.git
-cd thalo/packages/thalo-vscode
-pnpm install && pnpm build
-codium --install-extension thalo-vscode-0.0.1.vsix
-```
-
-### LSP
-
-```bash
-thalo lsp  # Editor'dan bağlanılabilir
-```
-
-## Dosya Yapısı (Flat)
-
-```
-~/Documents/Notes/
-├── entities.thalo    # Entity tanımları
-├── AGENTS.md         # Syntax rehberi
-└── *.md              # Tüm entry'ler (flat)
-```
-
-Entity type dosya adından değil, `thalo query` ile filtrelenir.
-
-## Markdown İçinde Thalo
-
-Thalo kod blokları `.md` dosyalarında çalışır:
+Thalo entries can be embedded in Markdown files using fenced code blocks:
 
 ````markdown
+# My Document
+
+Some markdown content here.
+
 ```thalo
-2026-01-28T17:00Z create lore "Title" ^id
-  type: "fact"
-  subject: "topic"
+2026-01-05T18:00Z create lore "An insight" #example
+  type: "insight"
+  subject: ^self
 
   # Description
-  Content here
+  This thalo entry lives inside a markdown file.
 ```
+
+More markdown content.
 ````
 
-## Scripting API
+The Prettier plugin automatically formats Thalo code blocks in Markdown files.
 
-```bash
-npm install @rejot-dev/thalo
-```
+## Best Practices
 
-Programmatic access için - custom validation, export, automation.
+1. **Use descriptive link IDs**: `^clean-code-book` is better than `^cc1`
+2. **Tag consistently**: Establish tag conventions early
+3. **Link related entries**: Build a web of connected knowledge
+4. **Run `thalo check` regularly**: Catch errors early
+5. **Start simple**: Add complexity as your knowledge base grows
 
-## Kullanım Gözlemleri
+## Next Steps
 
-### Link ID'ler (^) Graf Oluşturur
-
-- `subject: ^project-x` ile bir note'u projeye bağla
-- `thalo query "lore where ^project-x"` ile backlink'leri bul
-- Bidirectional traversal mümkün
-
-### Array Syntax
-
-- `related?: [^a, ^b]` formatı lore entity'de destekleniyor
-- Birden fazla proje veya lore ile ilişkilendirme için kullanılır
-- Opsiyonel field - gerek yoksa kullanma
-
-### Validation Kritik
-
-- Her değişiklikten sonra `thalo check` çalıştır
-- Tek dosya check entity tanımlarını bulamaz, full check kullan
-- Hatalı syntax hemen yakalanır
-
-### Flat Structure Avantajları
-
-- Tüm dosyalar tek klasörde
-- Entity type dosya adından bağımsız
-- Query ile filtreleme: `thalo query "project where #tag"`
-- Obsidian klasör karmaşasından kurtulma
-
-## Synthesis Detaylı
-
-Synthesis, Thalo'nun AI-powered özetleme özelliği. Birden fazla entry'yi toplayıp AI'a prompt gönderir.
-
-### Temel Kullanım
-
-```thalo
-2026-01-28T17:00Z define-synthesis "Project Summary" ^synthesis-project-summary
-  sources: lore where subject = ^self
-
-  # Prompt
-  Bu projeye bağlı tüm lore entry'lerini analiz et.
-  Önemli noktaları ve öğrenilenleri özetle.
-```
-
-### Çalıştırma
-
-```bash
-thalo actualize              # Tüm synthesis'leri çalıştır
-thalo actualize --dry-run    # Preview (çalıştırmadan göster)
-```
-
-### `^self` Kullanımı
-
-`^self` synthesis'in tanımlandığı entry'nin link ID'sini ifade eder. Örneğin bir proje dosyasına synthesis eklerseniz, `^self` o projenin ID'si olur.
-
-### Örnek: Haftalık Özet
-
-```thalo
-2026-01-28T17:00Z define-synthesis "Weekly Review" ^synthesis-weekly
-  sources: daily where date >= 2026-01-20
-
-  # Prompt
-  Bu haftanın daily entry'lerini analiz et.
-  - Tamamlanan işler
-  - Öğrenilenler
-  - Tekrar eden temalar
-```
-
-### Örnek: Proje Lore Özeti
-
-```thalo
-2026-01-28T17:00Z define-synthesis "AI Ethics Insights" ^synthesis-ai-ethics
-  sources: lore where subject = ^project-ai-ethics-mh
-
-  # Prompt
-  Bu projeyle ilgili tüm fact ve insight'ları derle.
-  Ana temaları ve çıkarımları özetle.
-```
-
-## Kaynaklar
-
-- Docs: https://thalo.rejot.dev/docs
-- GitHub: https://github.com/rejot-dev/thalo
-- Playground: https://thalo.rejot.dev/playground
-
----
-
-Annotations: 0,3749 SHA-256 a8fbf5220682bb0c8f6baa549fdbf2077d612f247ffa6d3ef0103cde6bb7543a
-&Claude: 0,3749
-...
+* Learn about [defining entities](/docs/entities)
+* Explore the [CLI commands](/docs/cli)
+* See [real-world examples](/docs/examples)
