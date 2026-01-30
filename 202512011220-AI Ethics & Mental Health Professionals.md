@@ -1,9 +1,4 @@
-```thalo
-2026-01-28T16:50Z create project "AI Ethics for MH Professionals" ^project-ai-ethics-mh #research #ai-ethics
-  status: "active"
-  area: "research"
-  started: 2025-12-01
-
+# AI Ethics & Mental Helath Professionals 
   # Goal
   Yapay zeka etiği bilgisi ile ruh sağlığı profesyonellerinin yapay zeka kullanım niyeti arasındaki ilişkiyi araştırmak.
 
@@ -29,18 +24,4 @@
   - [DEVONthink](x-devonthink-item://44E81738-DCBF-443E-9024-89DECB17E5AF)
   - Drafts: ~/Documents/Work/Research/ai-ethics-mh-professionals/drafts/
   - Paper notes: ~/Documents/Work/Research/ai-ethics-mh-professionals/paper-notes/ (14 paper)
-```
 
-[[^project-ai-ethics-mh]]
-
----
-
-Annotations: 0,1317 SHA-256 f96cc4c73b8c897bf35a0ac568d9c46ff8c04fd87269ef36b183f6a53986a8f1
-&Claude: 0,1317
-...
-
-
----
-
-#### Backlinks _(updated 2026-01-30 12:46)_
-_(None)_
