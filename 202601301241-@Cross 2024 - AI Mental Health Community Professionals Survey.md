@@ -26,7 +26,7 @@ permalink: efforts/research/public-attitudes-ai-mental-health/sources/paper-note
 ---
 
 # Use of AI in Mental Health Care: Community and Mental Health Professionals Survey
-#lit #ai-attitudes
+#lit #ai_attitudes
 
 Related: [[202601301240-AI User Attitudes]]
 

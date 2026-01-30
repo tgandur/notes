@@ -15,7 +15,7 @@ permalink: efforts/research/public-attitudes-ai-mental-health/sources/paper-note
 ---
 
 # Vo 2023 - Multi-stakeholder AI Healthcare Preferences
-#lit #ai-attitudes
+#lit #ai_attitudes
 
 Related: [[202601301240-AI User Attitudes]]
 

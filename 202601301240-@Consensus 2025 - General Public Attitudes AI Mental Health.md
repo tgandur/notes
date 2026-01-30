@@ -13,7 +13,7 @@ permalink: efforts/research/public-attitudes-ai-mental-health/sources/paper-note
 ---
 
 # Are General Public Attitudes Towards Using AI for Mental Health Positive?
-#lit #ai-attitudes
+#lit #ai_attitudes
 
 Related: [[202601301240-AI User Attitudes]]
 

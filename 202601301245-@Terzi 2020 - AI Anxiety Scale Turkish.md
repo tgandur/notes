@@ -17,7 +17,7 @@ permalink: efforts/research/public-attitudes-ai-mental-health/sources/paper-note
 ---
 
 # AI Anxiety Scale Turkish (Terzi 2020)
-#lit #ai-attitudes
+#lit #ai_attitudes
 
 Related: [[202601301240-AI User Attitudes]]
 

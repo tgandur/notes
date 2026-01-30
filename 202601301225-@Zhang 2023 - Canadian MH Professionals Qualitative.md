@@ -22,7 +22,7 @@ relevance: high
 ---
 
 # Zhang 2023 - Canadian MH Professionals Qualitative
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

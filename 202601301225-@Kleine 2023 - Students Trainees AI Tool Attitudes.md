@@ -22,7 +22,7 @@ relevance: high
 ---
 
 # Kleine 2023 - Students & Trainees AI Tool Attitudes
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

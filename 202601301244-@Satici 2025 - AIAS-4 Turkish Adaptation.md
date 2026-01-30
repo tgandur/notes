@@ -20,7 +20,7 @@ permalink: efforts/research/public-attitudes-ai-mental-health/sources/paper-note
 ---
 
 # AIAS-4 Turkish Adaptation (Satıcı et al. 2025)
-#lit #ai-attitudes
+#lit #ai_attitudes
 
 Related: [[202601301240-AI User Attitudes]]
 

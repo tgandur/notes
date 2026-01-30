@@ -22,7 +22,7 @@ relevance: high
 ---
 
 # Wagner 2025 - German Psychotherapists AI Attitudes
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

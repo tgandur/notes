@@ -22,7 +22,7 @@ relevance: high
 ---
 
 # Cross 2024 - AI Use Community MH Professionals Survey
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

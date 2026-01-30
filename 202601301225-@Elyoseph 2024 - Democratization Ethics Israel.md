@@ -20,7 +20,7 @@ relevance: medium-high
 ---
 
 # Elyoseph 2024 - Democratization Ethics (Israel)
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

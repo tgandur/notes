@@ -23,7 +23,7 @@ relevance: high
 ---
 
 # Sharif 2025 - Saudi MH Professionals AI Perceptions
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

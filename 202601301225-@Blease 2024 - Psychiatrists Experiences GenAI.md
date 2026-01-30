@@ -20,7 +20,7 @@ relevance: high
 ---
 
 # Blease 2024 - Psychiatrists Experiences GenAI
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

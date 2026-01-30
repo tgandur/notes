@@ -22,7 +22,7 @@ relevance: high
 ---
 
 # Saeidnia 2024 - Ethical Considerations Systematic Review
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

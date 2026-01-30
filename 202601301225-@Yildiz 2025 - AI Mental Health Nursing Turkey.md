@@ -20,7 +20,7 @@ relevance: high
 ---
 
 # Yıldız 2025 - AI in Mental Health Nursing (TURKEY!)
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

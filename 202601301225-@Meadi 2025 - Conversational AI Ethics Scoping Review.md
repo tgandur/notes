@@ -22,7 +22,7 @@ relevance: high
 ---
 
 # Meadi 2025 - Conversational AI Ethics Scoping Review
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

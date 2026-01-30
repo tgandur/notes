@@ -20,7 +20,7 @@ relevance: high
 ---
 
 # Cecil 2025 - MH Practitioners AI Perceptions
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

@@ -30,7 +30,7 @@ relevance: high
 ---
 
 # Wang 2024 - GenAI Applications Mental Health
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

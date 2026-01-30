@@ -6,7 +6,7 @@ permalink: efforts/research/ai-clinical-psychology-ethics/notes/compass-artifact
 ---
 
 # compass_artifact_wf-9dff0135-642d-4edb-afb8-720b130025d0_text_markdown
-#jots #ai-ethics
+#jots #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

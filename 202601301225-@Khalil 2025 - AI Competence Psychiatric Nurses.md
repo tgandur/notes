@@ -22,7 +22,7 @@ relevance: high
 ---
 
 # Khalil 2025 - AI Competence Psychiatric Nurses
-#lit #ai-ethics
+#lit #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

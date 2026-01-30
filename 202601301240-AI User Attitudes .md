@@ -1,5 +1,5 @@
 ```thalo
-2026-01-28T16:51Z create project "AI User Attitudes Research" ^project-ai-attitudes #research #ai-ethics #turkey
+2026-01-28T16:51Z create project "AI User Attitudes Research" ^project-ai-attitudes #research #ai_ethics #turkey
   status: "paused"
   area: "research"
   started: 2025-12-24

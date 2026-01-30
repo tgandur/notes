@@ -5,7 +5,7 @@ permalink: efforts/research/ai-clinical-psychology-ethics/notes/peer-review-audi
 ---
 
 # Peer Review Audit: AI-Clinical-Psychology-Ethics
-#jots #ai-ethics
+#jots #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

@@ -11,7 +11,7 @@ permalink: efforts/research/ai-clinical-psychology-ethics/notes/turkish-data-pro
 ---
 
 # Turkish data protection law KVKK considerations
-#jots #ai-ethics
+#jots #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

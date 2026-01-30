@@ -6,7 +6,7 @@ permalink: efforts/research/ai-clinical-psychology-ethics/notes/eval-report-chat
 ---
 
 # Eval Report ChatGPT
-#jots #ai-ethics
+#jots #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

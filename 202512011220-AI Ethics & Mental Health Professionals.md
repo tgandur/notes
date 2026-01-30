@@ -1,5 +1,5 @@
 # AI Ethics & Mental Health Professionals
-#prj #ai-ethics #active
+#prj #ai_ethics #active
 
 ---
 

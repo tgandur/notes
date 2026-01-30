@@ -6,7 +6,7 @@ permalink: efforts/research/ai-clinical-psychology-ethics/notes/ai-ethics-mental
 ---
 
 # ai_ethics_mental_health_turkish_review
-#jots #ai-ethics
+#jots #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 

@@ -9,7 +9,7 @@ tags:
 ---
 
 # Consencus Summary
-#jots #ai-ethics
+#jots #ai_ethics
 
 Related: [[202512011220-AI Ethics & Mental Health Professionals]]
 
